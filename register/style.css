@@ -1,0 +1,29 @@
+*{
+margin: 0;
+font-family: Roboto;
+}
+
+.container{
+width: 152px;
+height: 323px;
+background-color: rgba(222, 228, 228, 0.377);
+margin: 10px 10px 10px 10px;
+border-top: 4px solid #49ade9;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+}
+.input_form {
+    border-radius: 5px;
+    border: none;
+}
+.entrar {
+    background-color: #c2cf57;
+   
+}
+.login{
+    border: 2px #c2cf57 solid;
+    border-radius: 5px;
+}
