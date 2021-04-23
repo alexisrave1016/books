@@ -47,15 +47,32 @@ box-sizing: border-box;
     position: absolute;
     bottom: -16px;
 }
-.login{
-    border: 2px var(--color-verde) solid;
-    border-radius: 4px;
-    margin-bottom: 20px;
-    color: var(--color-verde);
-}
+
 .title{
     font-size: 15px;
     font-weight: 700px;
     margin-top: 15px;
     margin-bottom: 10px;
 }
+.boton_personalizado{
+    width: 226px;
+    height: 30px;
+    color: #ffffff;
+    background-color: var(--color-verde);
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .boton_personalizado1{
+    width: 226px;
+    height: 30px;
+    color: var(--color-verde);
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px var(--color-verde) solid;
+
+  }
